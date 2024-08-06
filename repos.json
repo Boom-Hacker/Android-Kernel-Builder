@@ -1,11 +1,12 @@
-[  {
+[
+  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "LineageOSKernel",
+      "repo": "https://github.com/LineageOS/android_kernel_samsung_sdm670",
+      "branch": "lineage-18.1",
+      "device": "gts4lv"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
@@ -28,4 +29,3 @@
       "CC": "clang"
     }
   }
-]
